@@ -1,0 +1,8 @@
+<view class='container'>
+  <image class='user_avatar' src='{{userInfo.avatarUrl}}'></image>
+  <button bindgetuserinfo="handleGetUserInfo" style='display:{{isShow?"block":"none"}}' open-type="getUserInfo">登录</button>
+  <text class='user_name'>hello {{userInfo.nickName}}</text>
+  <view class='start_container'>
+    <text class='start' catchtap="handleclick">{{msg}}</text>
+  </view>
+</view>

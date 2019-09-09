@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/detail/detail",
+    "pages/moviesdetail/moviesdetail",
+    "pages/list/list" 
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#a4e895",
+    "navigationBarTitleText": "阿田空间",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "观影广场",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影频道",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

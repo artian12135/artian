@@ -1,0 +1,16 @@
+<!--pages/list/list.wxml-->
+<import src='/pages/template/template.wxml'/>
+<swiper indicator-dots autoplay interval="4000" indicator-color="#ff7e7e" indicator-active-color="#a4e895">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<block wx:for='{{listArr}}' wx:key='{{index}}'>
+  <view catchtap="toDetail" data-index="{{index}}">
+    <template is="msgItem" data='{{...item}}'/>
+  </view>
+</block>
+

@@ -1,0 +1,40 @@
+/* pages/index/index.wxss */
+page {
+width: 100%;
+height: 100%;
+background:#00c777;
+}
+.container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.container image {
+width: 200rpx;
+height: 200rpx;
+border-radius: 100rpx;
+margin-top: 160rpx;
+}
+
+.username {
+font-size: 32rpx;
+font-weight: bold;
+margin-top: 100rpx;
+}
+
+.start_container {
+width: 200rpx;
+height: 80rpx;
+margin-top: 200rpx;
+border: 1px solid #405f80;
+text-align: center;
+border-radius: 10rpx;
+}
+
+.start_container text {
+font-size: 22rpx;
+font-weight: bold;
+line-height: 80rpx;
+color: #405f80;
+}
